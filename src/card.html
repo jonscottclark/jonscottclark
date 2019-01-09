@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ cardTitle }} npm card</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #28253a;
+        height: 100vh;
+        font-size: 18px;
+      }
+      .card {
+        border: 2px solid #fff;
+        padding: 5px;
+        margin: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        width: fit-content;
+        background: linear-gradient(135deg, #353b4b 0%,#3b3048 100%);
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a > span {
+        color: #ccc !important;
+      }
+      a:hover > span {
+        color: #ddd !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">{{ card }}</div>
+  </body>
+</html>
